@@ -1,4 +1,4 @@
-# Exercise 2 Grafika Komputer - WebGL
+# Assignment 3 Grafika Komputer - WebGL
 | Nama                   | NRP          |Kelas          |
 |------------------------|--------------| --------------|
 | Wan Sabrina Mayzura    | 5025211023   | A             |
