@@ -11,6 +11,10 @@ Dari kode template RGB Triangle, ubah bentuk segitiga menjadi segi empat (Square
 ![Alt text](image-1.png)
 
 ### Solusi
+Buat 2 segitiga yang sama, namun rotate segitiga tersebut sebesar 180° dan sesuaikan koordinat beserta warnanya.
+
+![Alt text](image-11.png)
+![Alt text](image-12.png)
 ```
 /* SET UP FOR FIRST TRIANGLE */
 /* Set up values for the "coords" attribute */
@@ -53,7 +57,7 @@ gl.enableVertexAttribArray(attributeColor);
 gl.drawArrays(gl.TRIANGLES, 0, 3);
 ```
 
-Buat 2 segitiga yang sama, namun rotate segitiga tersebut sebesar 180° dan sesuaikan koordinat beserta warnanya.
+
 
 ### Output
 ![Alt text](image-2.png)
