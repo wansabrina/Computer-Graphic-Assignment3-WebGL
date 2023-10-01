@@ -111,16 +111,27 @@ Untuk menunjukkan masing-masing sisi, jadikan keenam sisi lainnya menjadi koment
 // Back Faces (Magenta)
 // drawPrimitive( gl.TRIANGLE_FAN, [1,0,1,1], [ 0.5,-0.3,0.5, -0.3,-0.3,0.5, -0.3,0.5,0.5, 0.5,0.5,0.5 ]);
 ```
+Sisi depan
 
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-5.png)
 
 ### Sisi Lainnya
+Sisi atas
+
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-6.png)
+
+Sisi kanan
 
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-7.png)
 
+Sisi bawah
+
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-8.png)
 
+Sisi kiri
+
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-9.png)
+
+Sisi belakang
 
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-10.png)
