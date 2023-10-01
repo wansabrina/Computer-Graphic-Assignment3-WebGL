@@ -62,7 +62,7 @@ gl.drawArrays(gl.TRIANGLES, 0, 3);
 ### Output
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-2.png)
 
-## Soal 1
+## Soal 2
 Dari kode template 2D Cube, ubah bentuk kubus koordinat 2D menjadi kubus koordinat 3D, dan tunjukkan sisi-sisi dari kubus tersebut.
 ![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-3.png)
 
