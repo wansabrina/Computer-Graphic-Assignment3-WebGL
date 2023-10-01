@@ -6,15 +6,17 @@
 ## Soal 1
 Dari kode template RGB Triangle, ubah bentuk segitiga menjadi segi empat (Square)
 
-![Alt text](image.png) 
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/blob/main/documentation/image.png)
 
-![Alt text](image-1.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-1.png)
 
 ### Solusi
 Buat 2 segitiga yang sama, namun rotate segitiga tersebut sebesar 180° dan sesuaikan koordinat beserta warnanya.
 
-![Alt text](image-11.png)
-![Alt text](image-12.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-11.png)
+
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-12.png)
+
 ```
 /* SET UP FOR FIRST TRIANGLE */
 /* Set up values for the "coords" attribute */
@@ -57,14 +59,12 @@ gl.enableVertexAttribArray(attributeColor);
 gl.drawArrays(gl.TRIANGLES, 0, 3);
 ```
 
-
-
 ### Output
-![Alt text](image-2.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-2.png)
 
 ## Soal 1
 Dari kode template 2D Cube, ubah bentuk kubus koordinat 2D menjadi kubus koordinat 3D, dan tunjukkan sisi-sisi dari kubus tersebut.
-![Alt text](image-3.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-3.png)
 
 ```
 drawPrimitive( gl.TRIANGLE_FAN, [0,1,0,1], [ -0.5,-0.5,-0.5, -0.5,0.5,-0.5, 0.5,0.5,-0.5, 0.5,-0.5,-0.5 ]);
@@ -94,7 +94,7 @@ drawPrimitive( gl.TRIANGLE_FAN, [1,0,1,1], [ 0.5,-0.3,0.5, -0.3,-0.3,0.5, -0.3,0
 ```
 
 ### Output
-![Alt text](image-4.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-4.png)
 
 Untuk menunjukkan masing-masing sisi, jadikan keenam sisi lainnya menjadi komentar, kecuali sisi yang ingin ditampilkan. Contoh untuk menampilkan sisi depan saja:
 ```
@@ -112,15 +112,15 @@ Untuk menunjukkan masing-masing sisi, jadikan keenam sisi lainnya menjadi koment
 // drawPrimitive( gl.TRIANGLE_FAN, [1,0,1,1], [ 0.5,-0.3,0.5, -0.3,-0.3,0.5, -0.3,0.5,0.5, 0.5,0.5,0.5 ]);
 ```
 
-![Alt text](image-5.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-5.png)
 
 ### Sisi Lainnya
-![Alt text](image-6.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-6.png)
 
-![Alt text](image-7.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-7.png)
 
-![Alt text](image-8.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-8.png)
 
-![Alt text](image-9.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-9.png)
 
-![Alt text](image-10.png)
+![Alt text](https://github.com/wansabrina/Computer-Graphic-Exercise2-WebGL/raw/main/documentation/image-10.png)
